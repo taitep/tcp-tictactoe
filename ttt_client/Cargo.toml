@@ -6,4 +6,12 @@ license.workspace = true
 license-file.workspace = true
 edition.workspace = true
 
+[[bin]]
+name = "ttt_client"
+path = "src/manual.rs"
+
+[[bin]]
+name = "ttt_bot"
+path = "src/bot.rs"
+
 [dependencies]
