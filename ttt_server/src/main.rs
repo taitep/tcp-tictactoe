@@ -1,3 +1,5 @@
+use std::net::TcpListener;
+
 fn main() {
-    println!("Hello, world!");
+    let listener = TcpListener::bind("0.0.0.0:7777");
 }
