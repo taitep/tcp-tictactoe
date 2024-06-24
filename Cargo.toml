@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+
+package.authors = ["taitep <taitep@taitep.se>"]
+package.license = "MIT"
+package.license-file = "LICENSE"
+package.edition = "2021"
+
+members = ["ttt_client", "ttt_server"]
